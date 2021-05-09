@@ -1,0 +1,233 @@
+#map {
+    height: 100%;
+  }
+.title{
+    font-family: 'lato';
+    font-size: 20px;
+    cursor: pointer;
+    float:left;
+    padding-left: 18px;
+
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    padding-top: 4px;
+    text-transform: uppercase;
+    
+}
+.active{
+    background-color: transparent;
+    color: white;
+}
+.links{
+    float: right;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.navbar a{
+    color: rgb(124, 124, 124);
+    text-decoration: none;
+    border: none;
+    font-family: 'lato';
+    font-size: 14px;
+    padding: 14px;
+    transition: all 0.5s;
+}
+.navbar a.active{
+    background-color: transparent;
+    color: white;
+}
+.navbar a:hover{
+    background-color: transparent;
+    color: white;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+.p {
+    margin-top: 90px;
+    margin-bottom: 1rem;
+    padding: auto;
+}
+.body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+background-color: silver;
+}
+.h1 {
+    margin-bottom: 0.5rem;
+font-weight: 500;
+line-height: 1.2;
+font-size: 2.5rem;
+padding-left: 15px;
+color: #5F0E1A;
+}
+.box{
+    padding-left: 100px;
+    margin: 55px;
+    height: 700px;
+    width: 80%;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+.box .details p{
+    padding-top: 50px;
+    padding-right: 70px;
+    font-family: 'Times New Roman';
+    color: rgb(12, 162, 182);
+    text-align: left;
+    margin-left: 50px;
+}
+.box img{
+    margin-right: 50px;
+    float: left;
+}
+.box1{
+    padding-left: 100px;
+    margin: 55px;
+    height: 700px;
+    width: 80%;
+    background-repeat: no-repeat;
+}
+.box1 .details p{
+    padding-top: 10px;
+    padding-left: 70px;
+    font-family: 'Times New Roman';
+    color: rgb(12, 162, 182);
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 45px;
+}
+.box1 img{
+    margin-left: 100px;
+    float: right;
+}
+.h2{
+    font-size:29px;
+    margin-right: 340px;
+    margin-top: -40px;
+    margin-left: -0px;
+    padding: 50px;
+    text-align: left;
+    float: left;
+    text-align: left;
+}
+input[type=text],input[type=email],textarea{
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  button {
+    width: 25%;
+    position: relative;
+    z-index: 1;
+    min-width: 160px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 0 20px;
+    text-align: center;
+    text-transform: uppercase;
+    background-size: 200% auto;
+    color: #fff;
+    box-shadow: 0 3 ox 20px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    background-image: -webkit-linear-gradient(to right, #846FF4 0%, #F17674 51%, #846FF4 100%);
+    background-image: linear-gradient(to right, #846FF4 0%, #F17674 51%, #846FF4 100%);
+    border: 1px solid #fff;
+    -webkit-transition: all 500ms;
+    transition: all 500ms;
+  }
+  .contact-us {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 273px;
+  }
+.ul{
+  text-indent: inherit;
+    margin:250px;
+    margin-top: 0px;
+margin-bottom: 0px;
+}
+.titlep{
+    font: 28px RobotoBold;
+    color: black;
+    padding: 20px 50px 0px px;
+}
+.table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 500px;
+    margin-left: 500px;
+    padding: 75px;
+  }
+  
+.table td, .table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+.table tr:nth-child(even){background-color: #f2f2f2;}
+  
+.table tr:hover {background-color: #ddd;}
+.table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: black;
+    color: white;
+}
+.footer{
+    height: 200px;
+    background-color: rgb(39, 39, 39);
+    padding: 20px;
+}
+.footer .sub{
+    width: 200px;
+    text-align: left;
+    float: left;
+    color: white;
+}
+.footer .sub a{
+    color: rgb(124, 124, 124);
+    text-decoration: none;
+    border: none;
+    font-family: 'lato';
+    font-size: 14px;
+    margin-top: 40px; 
+    transition: all 0.5s;
+}
+.footer a.active{
+    background-color: transparent;
+    color: white;
+}
+.footer a:hover{
+    background-color: transparent;
+    color: white;
+}
+.footer p{
+    text-align: center;
+    font-size: 16px;
+    color:white;
+    font-family: 'lato';
+}
